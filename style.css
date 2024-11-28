@@ -233,7 +233,28 @@ header {
   font-weight: bold;
   color: #666;
 }
-
+ /* FOOTER */
+ footer {
+  line-height: 5rem;
+  background-color: black;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+.ul_logo {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer p {
+  padding-bottom: 30px;
+}
 @media only screen and (min-width: 1200px) {
   .anchor {
     padding: 20px 20px;
@@ -347,5 +368,21 @@ header {
   }
   .testimonial {
     width: 30%;
+  }
+  /*   FOOTER */
+  
+  footer div {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .ul_logo {
+    border: none;
   }
 }
