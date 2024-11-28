@@ -308,6 +308,20 @@ tbody tr:nth-child(even) {
 }
 /* CSS OF CONTACT.HTML */
 
+ /*   Contact  HERO  SECTION */
+ .contact_hero{
+  background-image: url("images/contact_hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  text-align: center;
+  background-blend-mode: darken;
+ }
+ .contact_hero h1{
+  font-size: 4rem;
+  padding: 60px 0px;
+ }
 
 
 
@@ -462,7 +476,16 @@ tbody tr:nth-child(even) {
     padding-bottom: 40px;
    }
 
-   
+       /*  CSS of  Contact.html  */
+    /*   SERVICES HERO SECTION */
+    .contact_hero{
+      height: 400px;
+     }
+     
+    .contact_hero h1{
+      font-size: 8rem;
+      padding: 180px 0px;
+     }
     
 
 }
