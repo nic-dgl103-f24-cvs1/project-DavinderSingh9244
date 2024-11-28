@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,12 +11,12 @@
     <title>Menu responsive</title>
   </head>
   <body>
-    <header class="bg_dark">
+    <header>
         <div class="mobile-container">
 
           <!-- Top Navigation Menu -->
           <nav class="topnav">
-            <a href="#home" class="active">Logo</a>
+            <a href="#home" class="active">Ambassador Transportation</a>
             <div id="myLinks">
               <a href="#news">Home</a>
               <a href="#contact">Services</a>
@@ -29,13 +27,13 @@
             </a>
           </nav>     
     </header>     
-    <section class="hero bg_extra_dark">
+    <section class="hero">
       <img src="images/hero.png" alt="hero_img" class="desktop_img">
       <div>
         <div class="hero_content"> 
-          <div class="  hero_div">
+          <div class="hero_div">
             <h1 >Your Comfort Our Priority</h1>
-            <p   >Experience the perfect blend of sophistication and convenience with our premium transportation services.</p>
+            <p class="text_color_light"  >Experience the perfect blend of sophistication and convenience with our premium transportation services.</p>
           <a href="#" class="anchor bg_medium">Request a Quote</a>
           </div>
           <div class="hero_background_img"> 
@@ -43,7 +41,7 @@
         </div> 
       </div>
     </section>
-    <section >
+    <section class="bg_medium">
        <div class=" about content_wrapper">
         <div class="about_content">
           <h2 class="text_color_dark">Why Choose Us?</h2>
@@ -51,27 +49,47 @@
         <a href="#" class="anchor bg_dark">Know More</a>
       </div> 
       <div class="article_wrapper">
-          <article>
-            <h3>Lorem, ipsum dolor.</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, commodi.</p>
+          <article class="bg_light">
+            <h3> Always On Time</h3>
+            <p>Punctual pickups and timely arrivals you can trust.</p>
           </article>
-          <article>
-            <h3>Lorem, ipsum dolor.</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, commodi.</p>
+          <article class="bg_light">
+            <h3>Safe & Comfortable</h3>
+            <p>Enjoy secure, smooth rides in well-maintained vehicles.</p>
           </article>
-          <article>
-            <h3>Lorem, ipsum dolor.</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, commodi.</p>
+          <article class="bg_light">
+            <h3>  Affordable Excellence </h3>
+            <p>Luxury service at competitive rates, hassle-free.</p>
           </article>
          </div>      
-        <a href="#" class="anchor bg_dark mobile_anchor">Know More</a>
+        <a href="#" class="anchor bg_dark mobile_anchor">Explore Services</a>
        </div>
     </section>
-   
+    <section>
+      <div class=" services content_wrapper">
+        <h2>Our Services</h2>
+        <div>
+          <article>
+            <img src="images/CTC.jpeg" alt="service_1">
+            <h3>City-to-city rides</h3>
+            <p>Your stress-free solution for long-distance rides with professional chauffeurs across the globe.</p>
+           </article>
+           <article>
+            <img src="images/CH.jpeg" alt="service_2">
+            <h3>Chauffeur hailing</h3>
+            <p>Enjoy the quality of a traditional chauffeur, with the convenience of riding within minutes of booking.</p>
+           </article>
+           <article>
+            <img src="images/AT.jpeg" alt="service_3">
+            <h3>Airport transfers</h3>
+            <p>With additional wait time and flight tracking in case of delays, our service is optimized to make every airport transfer a breeze.</p>
+           </article>
+        </div>
+        <a href="#" class="anchor">Explore Services</a>
+      </div>
+       </section>
   </body>
 </html>
-
-
 <script>
   function myFunction() {
   var x = document.getElementById("myLinks");
