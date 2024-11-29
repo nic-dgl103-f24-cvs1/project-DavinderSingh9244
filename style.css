@@ -392,6 +392,10 @@ textarea {
  width: 100%;
  
 }
+.contact_us iframe{
+  width: 100%;
+  border-radius: 8px;
+ }
 
 /* Submit Button */
 .submit-button {
@@ -568,6 +572,10 @@ textarea {
  margin-top: 0px;
   width: 50%;
  }
+ .contact_us p {
+  margin-top: 10px;
+
+  }
  .contact-form-container {
   width: 50%;
 }
