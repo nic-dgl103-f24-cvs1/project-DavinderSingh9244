@@ -413,6 +413,12 @@ textarea {
 .submit-button:hover {
   background-color: #0056b3;
 }
+/* SECTION MAP */
+.map iframe{
+  width: 100%;
+}
+
+
 
 @media only screen and (min-width: 1200px) {
   .anchor {
@@ -565,6 +571,13 @@ textarea {
 
   /*  CSS of  Contact.html  */
   /*   Contact HERO SECTION */
+  .contact_hero {
+    height: 400px;
+  }
+  .contact_hero h1 {
+    font-size: 8rem;
+    padding: 140px 0px;
+  }
   .form{
     display: flex;
   }
