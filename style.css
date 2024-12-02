@@ -204,6 +204,14 @@ header {
 .mobile_hidden_article {
   display: none;
 }
+.services a{
+ 
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 20px;
+}
 /* Testimonials Section */
 #testimonials {
   padding: 50px 20px;
@@ -304,6 +312,7 @@ tbody tr:nth-child(even) {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
 /* CSS OF CONTACT.HTML */
 
 /*   Contact  HERO  SECTION */
@@ -320,8 +329,10 @@ tbody tr:nth-child(even) {
   font-size: 4rem;
   padding: 60px 0px;
 }
+
 /*   Contact  Form  SECTION */
-.form{
+
+.form {
   padding: 40px 0px;
 }
 .contact-form-container {
@@ -333,6 +344,7 @@ tbody tr:nth-child(even) {
 }
 
 /* Form Styling */
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -351,7 +363,8 @@ label {
   text-align: justify;
 }
 
-input, textarea {
+input,
+textarea {
   font-size: 16px;
   padding: 10px;
   border: 1px solid #ddd;
@@ -362,44 +375,47 @@ input, textarea {
   transition: border-color 0.3s;
 }
 
-input:focus, textarea:focus {
-  border-color: #007bff;
+input:focus,
+textarea:focus {
+  border-color: gainsboro;
 }
 
 textarea {
   resize: none;
 }
-.contact_us{
+.contact_us {
   background-color: white;
   margin: 40px 20px 0px 20px;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align:center;
+  text-align: center;
+}
+.contact_us  a{
+  text-decoration: none;
+  color: black;
 }
 .contact_us ul {
   list-style: none;
   padding: 0px;
-  
 }
-.contact_us li{
+.contact_us li {
   margin-top: 20px;
 }
-.contact_us p{
+.contact_us p {
   margin: 0;
- text-align: center;
- width: 100%;
- 
+  text-align: center;
+  width: 100%;
 }
-.contact_us iframe{
+.contact_us iframe {
   width: 100%;
   border-radius: 8px;
- }
+}
 
 /* Submit Button */
 .submit-button {
-  background-color: #007bff;
+  background-color: gainsboro;
   color: #fff;
   font-size: 16px;
   padding: 12px;
@@ -414,11 +430,9 @@ textarea {
   background-color: #0056b3;
 }
 /* SECTION MAP */
-.map iframe{
+.map iframe {
   width: 100%;
 }
-
-
 
 @media only screen and (min-width: 1200px) {
   .anchor {
@@ -578,24 +592,21 @@ textarea {
     font-size: 8rem;
     padding: 140px 0px;
   }
-  .form{
+  .form {
     display: flex;
+    padding: 50px;
   }
- .contact_us{
- margin-top: 0px;
-  width: 50%;
- }
- .contact_us p {
-  margin-top: 10px;
-
+  .contact_us {
+    margin-top: 0px;
+    width: 50%;
   }
- .contact-form-container {
-  width: 50%;
-}
-.contact-form-container h2{
-  text-align: left;
-}
-
-
-
+  .contact_us p {
+    margin-top: 10px;
+  }
+  .contact-form-container {
+    width: 50%;
+  }
+  .contact-form-container h2 {
+    text-align: left;
+  }
 }
