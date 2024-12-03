@@ -204,8 +204,7 @@ header {
 .mobile_hidden_article {
   display: none;
 }
-.services a{
- 
+.services a {
   color: white;
   background-color: black;
   text-decoration: none;
@@ -269,7 +268,7 @@ footer p {
 /* CSS OF SERVICES.HTML */
 /*   SERVICES  HERO  SECTION */
 .service_hero {
-  background-image: url("images/services_hero.jpg");
+  background: rgba(0, 0, 0, 0.5) url("images/services_hero.jpg");
   object-fit: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -277,9 +276,16 @@ footer p {
   text-align: center;
   background-blend-mode: darken;
 }
+
 .service_hero h1 {
   font-size: 4rem;
-  padding: 80px 0px;
+  padding: 60px 0px;
+  cursor: pointer;
+  text-align: center;
+  transition: color 1s;
+}
+.service_hero h1:hover {
+  color: #6890ba;
 }
 /*   SERVICES  TABLE */
 .responsive-table {
@@ -317,7 +323,7 @@ tbody tr:nth-child(even) {
 
 /*   Contact  HERO  SECTION */
 .contact_hero {
-  background-image: url("images/contact_hero.jpg");
+  background: rgba(0, 0, 0, 0.35) url("images/contact_hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -328,6 +334,12 @@ tbody tr:nth-child(even) {
 .contact_hero h1 {
   font-size: 4rem;
   padding: 60px 0px;
+  cursor: pointer;
+  text-align: center;
+  transition: color 1s;
+}
+.contact_hero h1:hover {
+  color: #6890ba;
 }
 
 /*   Contact  Form  SECTION */
@@ -392,7 +404,7 @@ textarea {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-.contact_us  a{
+.contact_us a {
   text-decoration: none;
   color: black;
 }
@@ -415,7 +427,7 @@ textarea {
 
 /* Submit Button */
 .submit-button {
-  background-color: gainsboro;
+  background-color: black;
   color: #fff;
   font-size: 16px;
   padding: 12px;
@@ -427,7 +439,7 @@ textarea {
 }
 
 .submit-button:hover {
-  background-color: #0056b3;
+  background-color: #6890ba;
 }
 /* SECTION MAP */
 .map iframe {
