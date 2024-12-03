@@ -25,9 +25,11 @@ h3,
 h4,
 h5,
 h6,
-p,
-figure,
-img {
+a
+ {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: normal;
   margin: 0;
 }
 .anchor {
@@ -186,6 +188,10 @@ header {
 
 /*   Services  SECTION */
 
+#anchor_services{
+  padding: 20px 20px;
+  border-radius: 50px;
+}
 .services article {
   line-height: 4rem;
   margin: 40px 0px;
@@ -554,6 +560,7 @@ textarea {
   .services article {
     width: 30%;
   }
+
   /*   testimonial  SECTION */
   .testimonial_wrapper {
     display: flex;
