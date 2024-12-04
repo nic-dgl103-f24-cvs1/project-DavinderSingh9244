@@ -60,16 +60,17 @@ The redesigned site will include three pages: **Home**, **Services**, and **Cont
   - Logo.
   - Main Navigation: Home, Services, Contact Us.
 - **Hero Section**:
-  - Heading: "Ride in Comfort and Style with Ambassador Transportation."
+  - Heading: "Your Comfort Our Priority"
   - Image: High-quality image of a premium vehicle.
   - Call-to-Action: “Request a Quote.”
 - **About Section**:
   - Heading: "Why Choose Us?"
   - Paragraph: Brief summary of the company’s mission and services.
-  - Key Benefits:
+  - About us:
     - Professional drivers.
     - Comfortable, clean vehicles.
     - On-time guarantee.
+     - Call-to-Action: “Know More.”
 - **Services Overview**:
   - List of Services:
     - Airport Transportation.
@@ -95,9 +96,8 @@ The redesigned site will include three pages: **Home**, **Services**, and **Cont
     - Description.
     - Image or Icon.
     - Call-to-Action: "Request This Service."
-- **FAQ Section**:
-  - Heading: "Frequently Asked Questions."
-  - List of common queries with answers.
+- **Table Section**:
+  - Details of services and their fairs .
 - **Footer**: Same as Home Page.
 
 #### 3. Contact Us Page
